@@ -18,21 +18,13 @@ void lol(std::string idontkare) {
 int main() {
 	std::string whatareyoudoing;
 	v.push_back(2);
-	for (int j = 3; j < 5; j++) {
+	for (int j = 3; j < 5; j++) 
 		cout << j;
-	}
-	for (auto i : v) {
+	for (auto i : v)
 		cout << i;
-	}
-    do {
-    	lol(whatareyoudoing);
-    } while (i < 3);
-
-    while (i < 3) 
-    	lol(whatareyoudoing);
-    while (i < 3) 
-    	while (true) {
-    		lol(whatareyoudoing);
-    	}
+	int p = 5;
+	double dis[10];
+	for (int i = 1; i < p; i++)
     return 0;
 }
+
